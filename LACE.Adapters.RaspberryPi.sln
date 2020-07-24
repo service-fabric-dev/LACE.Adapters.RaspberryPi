@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LACE.Adapters.RaspberryPi", "LACE.Adapters.RaspberryPi\LACE.Adapters.RaspberryPi.csproj", "{B06C52E5-93A9-47F8-85AC-DFFEA6993E5D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LACE.Adapters.RaspberryPi.UnitTests", "LACE.Adapters.RaspberryPi.UnitTests\LACE.Adapters.RaspberryPi.UnitTests.csproj", "{FEC67FC0-2CA8-4E79-A9EB-F6ACDE11D44A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B06C52E5-93A9-47F8-85AC-DFFEA6993E5D}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{B06C52E5-93A9-47F8-85AC-DFFEA6993E5D}.Debug|Any CPU.Build.0 = Debug|x64
+		{B06C52E5-93A9-47F8-85AC-DFFEA6993E5D}.Debug|x64.ActiveCfg = Debug|x64
+		{B06C52E5-93A9-47F8-85AC-DFFEA6993E5D}.Debug|x64.Build.0 = Debug|x64
+		{B06C52E5-93A9-47F8-85AC-DFFEA6993E5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B06C52E5-93A9-47F8-85AC-DFFEA6993E5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B06C52E5-93A9-47F8-85AC-DFFEA6993E5D}.Release|x64.ActiveCfg = Release|x64
+		{B06C52E5-93A9-47F8-85AC-DFFEA6993E5D}.Release|x64.Build.0 = Release|x64
+		{FEC67FC0-2CA8-4E79-A9EB-F6ACDE11D44A}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{FEC67FC0-2CA8-4E79-A9EB-F6ACDE11D44A}.Debug|Any CPU.Build.0 = Debug|x64
+		{FEC67FC0-2CA8-4E79-A9EB-F6ACDE11D44A}.Debug|x64.ActiveCfg = Debug|x64
+		{FEC67FC0-2CA8-4E79-A9EB-F6ACDE11D44A}.Debug|x64.Build.0 = Debug|x64
+		{FEC67FC0-2CA8-4E79-A9EB-F6ACDE11D44A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEC67FC0-2CA8-4E79-A9EB-F6ACDE11D44A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEC67FC0-2CA8-4E79-A9EB-F6ACDE11D44A}.Release|x64.ActiveCfg = Release|x64
+		{FEC67FC0-2CA8-4E79-A9EB-F6ACDE11D44A}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57162D9C-927F-4636-9140-869F8D065A81}
+	EndGlobalSection
+EndGlobal
