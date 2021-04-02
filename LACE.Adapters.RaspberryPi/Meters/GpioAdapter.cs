@@ -1,23 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using LACE.Core.Abstractions;
+using LACE.Core.Abstractions.Model;
 
-namespace LACE.Adapters.RaspberryPi.Configuration
+namespace LACE.Adapters.RaspberryPi.Meters
 {
-    public class RaspberryPiMeterAdapter : IMeterAdapter
+    public class GpioAdapter : IMeterAdapter
     {
-        public RaspberryPiMeterAdapter()
-        {
-
-        }
-
         public Task<IFact> ReadAsync(CancellationToken cancellation)
         {
             throw new NotImplementedException();
         }
     }
 }
- 

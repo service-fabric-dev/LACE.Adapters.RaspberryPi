@@ -1,7 +1,11 @@
 ﻿{
   "AdapterConfigs": {
-    "MetricAdapters": {
+    "MeterAdapters": {
       "Adapters": [
+        {
+          "MeterType": "TestMeter",
+          "PinNumber": 26
+        },
         {
           "MeterType": "MoistureMeterAdapter"
         },
